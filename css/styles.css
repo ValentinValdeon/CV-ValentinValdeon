@@ -1,0 +1,277 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(29, 53, 87);
+    height: 5rem;
+    color: rgb(241, 250, 238);
+}
+
+span{
+    font-size: 3.5rem;
+    color: rgb(230, 57, 70);
+
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    background-size: cover;
+}
+
+.divNav {
+    width: auto;
+    margin-left: 1rem;
+    margin-right: 2.2rem;
+}
+
+.butNav{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 5px; 
+    color: rgb(241, 250, 238);
+    background-color: rgb(29, 53, 87);
+    box-shadow: rgb(241, 250, 238) 0.5px 0.5px 3px 0.5px; 
+    border: 2px solid rgb(241, 250, 238);
+
+}
+section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(241, 250, 238);
+}
+
+.divPerfil{
+    display: flex;
+    justify-content: center;  
+}
+
+
+.section_Inicio{
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.imgPerfil{
+    width: 400px;
+    height: auto;
+    margin-top: 140px;
+    margin-bottom: 50px;
+}
+
+h1{
+    margin-top: 130px;
+    margin-left: 5%;
+    font-size: 3.5rem;
+}
+
+h2{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    position: relative;
+    text-align: center;
+    text-decoration-line:underline;
+    text-decoration-style:solid;
+    text-decoration-color: rgb(230, 57, 70);
+    font-size: 2rem;
+}
+
+.buttDescarga{
+    width: 200px;
+    color: rgb(241, 250, 238); 
+    font-size:20px; 
+    padding: 5px; 
+    border-radius: 12px; 
+    background-color: rgb(230, 57, 70);
+    box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; 
+    border: 2px solid rgb(230, 57, 70); 
+    margin-left: 10%;
+}
+    
+.divIconos{
+    display: flex;
+    justify-content:space-between; 
+    width: 40%; 
+    margin-left: 35px;
+}
+
+.texto{
+    margin-left: 50px;
+}
+
+
+.icons{
+    width: 45px;
+    height: auto;
+    margin: 20px 15px 0px 0px;
+    border-radius: 0.5rem;
+}
+
+.divTecnologia{
+    position: relative;
+    text-align: center;
+}
+
+.divSkills{
+    margin: 15px 33% 0px 33%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    font-weight: var(--font-semi);
+    padding: 1rem 1rem;
+    margin-bottom: var(--mb-4);
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 25px rgb(14 36 49 / 15%);
+    font-weight: bold;
+}
+
+.iconSkills{
+    width: 50px;
+    height: auto;
+}
+
+.cardsContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.cards{
+    margin-left: 10px;
+}
+
+.imgEstudios{
+    width: 315px;
+    height: 180px;
+    border-radius: 1rem;
+    box-shadow: 0 5px 30px rgb(14 36 49 / 15%);
+}
+
+footer{
+    color: rgb(241, 250, 238);
+    background-color: rgb(29, 53, 87);
+}
+
+.divFooter{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+
+h4{
+    font-size: 1.8rem;
+    margin-left: 15px;
+    padding-top: 25px;
+    text-decoration-line:underline;
+    text-decoration-style:solid;
+    text-decoration-color: rgb(241, 250, 238);
+}
+.containerF{
+    display: flex;
+    align-items: center;
+}
+
+ul,li{
+    display: flex;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+li{
+    margin: 10px 40px 0px 30px;
+}
+
+.divIconosF{
+    display: flex;
+    margin-left: 20px;
+    flex-direction: column;
+    width: 35%;
+}
+
+.iconsF{
+    width: 30px;
+    height: auto;
+    margin: -10px 5px 0px 0px;
+    border-radius: 0.5rem;
+}
+.divIconDatos{
+    display: flex;
+    align-items: center;
+}
+
+.pDatos{
+    margin-left: 0px;
+}
+
+hr{
+    color: black; 
+    background-color: black; 
+    width:80%;
+    margin-left: 10%;
+    margin-top: 100px;
+}
+
+.data{
+    position: absolute;
+    width: 315px;
+    height: 180px;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,.95);
+    opacity: 0;
+    transition: .5s;
+    text-align: center;
+}
+
+.data h5,p{
+    color: rgba(255,255,255,.8);
+}
+
+.cards:hover .data{
+    opacity: 1;
+}
+
+.parrafo{
+    color: black;
+}
+
+.butNav:hover {
+    background-color: rgba(255,255,255,.4);
+}
+
+.buttDescarga:hover {
+    background-color: rgba(230, 57, 70,.4);
+}
