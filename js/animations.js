@@ -1,4 +1,5 @@
 
+// Animacion de las Skills
     window.addEventListener('scroll', function(){
         let animacion1 = document.getElementById('sk1');
         let posicionSk = animacion1.getBoundingClientRect().top-10;
@@ -68,4 +69,3 @@
             animacion1.style.animation = 'mover 1.4s ease-out';
         }
     })
-
