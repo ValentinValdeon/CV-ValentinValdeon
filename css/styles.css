@@ -339,8 +339,12 @@ hr{
 
 @media only screen and (max-width: 480px){
     
+    header{
+        height: 60px;
+    }
     .aNav {
-        font-size: .96rem;
+        font-size: .9rem;
+        margin: 20px 10px 0px 10px ;
     }
 
     h1{
@@ -365,11 +369,34 @@ hr{
     }
 
     .aNav:hover{
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
     
     .aDescarga:hover{
         font-size: 1.5rem;
+    }
+
+    .divSkills{
+        margin: 15px auto;
+        width: 200px;
+    }
+
+    .imgEstudios{
+        width: 200px;
+        height: 120px;
+    }
+
+    .data{
+        width: 200px;
+        height: 120px;
+    }
+
+    h5{
+        font-size: 1rem;
+    }
+
+    p{
+        font-size:0.8rem
     }
 
 }
